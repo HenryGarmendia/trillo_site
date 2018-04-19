@@ -1,0 +1,19 @@
+{
+  "name": "trillo_site",
+  "version": "1.0.0",
+  "description": "This is fictional booking app a practical exercise using flex-box advance properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryGarmendia/trillo_site.git"
+  },
+  "author": "Henry Garmendia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HenryGarmendia/trillo_site/issues"
+  },
+  "homepage": "https://github.com/HenryGarmendia/trillo_site#readme"
+}
