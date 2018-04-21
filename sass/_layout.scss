@@ -6,9 +6,12 @@
   min-height: 50rem; }
 
   .header { 
+    align-items: center;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
-    height: 7rem; }
+    display: flex;
+    height: 7rem;
+    justify-content: space-between; }
 
   .content { 
     display: flex; }

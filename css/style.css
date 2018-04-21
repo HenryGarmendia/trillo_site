@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --color-primary: #eb2f64;
   --color-primary-light: #FF3366;
@@ -43,9 +44,12 @@ body {
   min-height: 50rem; }
 
 .header {
+  align-items: center;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
-  height: 7rem; }
+  display: flex;
+  height: 7rem;
+  justify-content: space-between; }
 
 .content {
   display: flex; }
@@ -57,3 +61,61 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1; }
+
+/* ========================================
+:::: ￼ LOGO
+======================================== */
+.logo {
+  height: 3.25rem;
+  margin-left: 3rem; }
+
+/* ========================================
+:::: ￼ SEARCH
+======================================== */
+.search {
+  align-items: center;
+  display: flex;
+  flex: 0 0 40%;
+  justify-content: center; }
+  .search__input {
+    background-color: var(--color-grey-light-2);
+    border: none;
+    border-radius: 100px;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: -3.25rem;
+    padding: .7rem 2rem;
+    transition: all .2s;
+    width: 90%; }
+    .search__input:focus {
+      background-color: var(--color-grey-light-3);
+      outline: none;
+      width: 100%; }
+  .search__input:focus + .search__button {
+    background-color: var(--color-grey-light-3); }
+  .search__button {
+    background-color: var(--color-grey-light-2);
+    border: none; }
+    .search__button:focus {
+      outline: none; }
+    .search__button:active {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px); }
+  .search__icon {
+    border-width: 0px;
+    border-color: transparent;
+    fill: var(--color-grey-dark-3);
+    height: 2rem;
+    width: 2rem; }
+
+/* ========================================
+:::: ￼ USER NAVIGATION
+======================================== */
+.user-nav__icon {
+  height: 2.25rem;
+  width: 2.25rem; }
+
+.user-nav__user-photo {
+  border-radius: 50%;
+  height: 3.75rem; }
