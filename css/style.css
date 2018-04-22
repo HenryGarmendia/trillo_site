@@ -111,8 +111,8 @@ body {
       -webkit-transform: translateY(2px);
       transform: translateY(2px); }
   .search__icon {
-    border-width: 0px;
     border-color: transparent;
+    border-width: 0;
     fill: var(--color-grey-dark-3);
     height: 2rem;
     width: 2rem; }
