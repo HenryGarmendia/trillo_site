@@ -171,3 +171,14 @@
   padding: 2.5rem;
   text-align: center;
 }
+
+/* ========================================
+:::: ￼ GALLERY HOTEL
+======================================== */
+.gallery { 
+  display: flex;
+  
+  &__photo {
+    display: block;
+    width: 100%;
+  } }
