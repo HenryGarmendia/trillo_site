@@ -173,7 +173,7 @@
 }
 
 /* ========================================
-:::: ￼ GALLERY HOTEL
+:::: ￼ GALLERY
 ======================================== */
 .gallery { 
   display: flex;
@@ -181,4 +181,43 @@
   &__photo {
     display: block;
     width: 100%;
+  } }
+
+/* ========================================
+:::: ￼ OVERVIEW
+======================================== */
+.overview { 
+  display: flex;
+  justify-content: space-between;
+  
+  &__heading {
+
+  }
+
+  &__stars {
+    // flex: 1;
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    color: var(--color-primary);
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+
+  &__location {
+
+  }
+
+  &__rating {
+
+  }
+
+  &__rating-average {
+
+  }
+
+  &__rating-count {
+
   } }

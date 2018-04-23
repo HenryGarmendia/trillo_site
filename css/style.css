@@ -209,10 +209,23 @@ body {
   text-align: center; }
 
 /* ========================================
-:::: ￼ GALLERY HOTEL
+:::: ￼ GALLERY
 ======================================== */
 .gallery {
   display: flex; }
   .gallery__photo {
     display: block;
     width: 100%; }
+
+/* ========================================
+:::: ￼ OVERVIEW
+======================================== */
+.overview {
+  display: flex;
+  justify-content: space-between; }
+  .overview__stars {
+    margin-right: auto; }
+  .overview__icon-star, .overview__icon-location {
+    color: var(--color-primary);
+    height: 1.75rem;
+    width: 1.75rem; }
