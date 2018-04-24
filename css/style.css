@@ -65,8 +65,7 @@ body {
   justify-content: space-between; }
 
 .hotel-view {
-  flex: 1;
-  height: 80rem; }
+  flex: 1; }
 
 .detail {
   background-color: var(--color-grey-light-1);
@@ -78,6 +77,7 @@ body {
   background-color: #fff;
   box-shadow: var(--shadow-light);
   flex: 0 0 60%;
+  font-size: 1.4rem;
   margin-right: 4.5rem;
   padding: 3rem; }
 
