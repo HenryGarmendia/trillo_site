@@ -44,5 +44,8 @@
 }
 
 .user-reviews {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   flex: 1;
 }
