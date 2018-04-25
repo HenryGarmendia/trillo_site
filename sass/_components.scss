@@ -376,8 +376,7 @@
     margin-right: .7rem;
     width: 1rem;
     
-  }
-}
+  } }
 
 /* ========================================
 :::: ￼ RECOMMEND
@@ -405,6 +404,46 @@
 
     &:not(:last-child) {
       margin-right: -1.5rem;
-    }
+    } } 
+}
+
+/* ========================================
+:::: ￼ REVIEWS
+======================================== */
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  margin-bottom: 3rem;
+  padding: 3rem;
+
+  &__text {
+    margin-bottom: 2rem;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+
+  &__photo {
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+  &__user-box {
+    margin-right: auto;
+  }
+
+  &__user-name {
+
+  }
+
+  &__user-date {
+
+  }
+
+  &__user-rating {
+
   }
 }
