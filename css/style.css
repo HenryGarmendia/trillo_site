@@ -456,3 +456,15 @@ body {
     position: absolute;
     top: -2.75rem;
     z-index: 1; }
+
+/* ========================================
+:::: ￼ CTA
+======================================== */
+.cta {
+  padding: 3.5rem 0;
+  text-align: center; }
+  .cta__book-now {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase; }
