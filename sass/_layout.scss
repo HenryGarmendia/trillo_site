@@ -48,6 +48,10 @@
   @media only screen and (max-width: $bp-medium) {
     padding: 3rem;
   }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -60,6 +64,11 @@
   @media only screen and (max-width: $bp-medium) {
     margin-right: 3rem;
     padding: 2rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 3rem;
+    margin-right: 0;
   }
 }
 
