@@ -84,6 +84,9 @@ body {
   display: flex;
   font-size: 1.4rem;
   padding: 4.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .detail {
+      padding: 3rem; } }
 
 .description {
   background-color: #fff;
@@ -91,6 +94,10 @@ body {
   flex: 0 0 60%;
   margin-right: 4.5rem;
   padding: 3rem; }
+  @media only screen and (max-width: 56.25em) {
+    .description {
+      margin-right: 3rem;
+      padding: 2rem; } }
 
 .user-reviews {
   align-items: center;
@@ -194,10 +201,20 @@ body {
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .side-nav {
+      display: flex;
+      margin: 0; } }
   .side-nav__item {
     position: relative; }
     .side-nav__item:not(:last-child) {
       margin-bottom: .5rem; }
+      @media only screen and (max-width: 56.25em) {
+        .side-nav__item:not(:last-child) {
+          margin: 0; } }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__item {
+        flex: 1; } }
   .side-nav__item::before {
     background-color: var(--color-primary);
     content: "";
@@ -225,6 +242,10 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     z-index: 10; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem; } }
   .side-nav__icon {
     fill: currentColor;
     height: 1.75rem;
@@ -239,6 +260,9 @@ body {
   font-size: 1.2rem;
   padding: 2.5rem;
   text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .legal {
+      display: none; } }
 
 /* ========================================
 :::: ￼ GALLERY
@@ -253,6 +277,7 @@ body {
 :::: ￼ OVERVIEW
 ======================================== */
 .overview {
+  background-color: #fff;
   align-items: center;
   display: flex;
   border-bottom: var(--line); }
@@ -412,6 +437,8 @@ body {
   font-size: 1.3rem; }
   .recommend__count {
     margin-right: auto; }
+  .recommend__friends {
+    display: flex; }
   .recommend__photo {
     border: 3px solid #fff;
     border-radius: 50%;
@@ -431,6 +458,10 @@ body {
   overflow: hidden;
   padding: 3rem;
   position: relative; }
+  @media only screen and (max-width: 56.25em) {
+    .review {
+      margin-bottom: 2rem;
+      padding: 2rem; } }
   .review__text {
     margin-bottom: 2rem;
     position: relative;
@@ -472,9 +503,12 @@ body {
 :::: ￼ CTA
 ======================================== */
 .cta {
+  background-color: #fff;
   padding: 3.5rem 0;
-  text-align: center;
-  background-color: #fff; }
+  text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .cta {
+      padding: 2.5rem 0; } }
   .cta__book-now {
     font-size: 1.85rem;
     font-weight: 300;

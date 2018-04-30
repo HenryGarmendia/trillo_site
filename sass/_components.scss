@@ -109,11 +109,24 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    display: flex;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
     &:not(:last-child) {
       margin-bottom: .5rem;
+
+      @media only screen and (max-width: $bp-medium) {
+        margin: 0;
+      }
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      flex: 1;
     }
   }
 
@@ -152,6 +165,11 @@
     text-decoration: none;
     text-transform: uppercase;
     z-index: 10;
+
+    @media only screen and (max-width: $bp-medium) {
+      justify-content: center;
+      padding: 2rem;
+    }
   }
 
   &__icon {
@@ -170,6 +188,10 @@
   font-size: 1.2rem;
   padding: 2.5rem;
   text-align: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }
 
 /* ========================================
@@ -187,6 +209,7 @@
 :::: ￼ OVERVIEW
 ======================================== */
 .overview { 
+  background-color: #fff;
   align-items: center;
   display: flex;
   border-bottom: var(--line);
@@ -401,7 +424,7 @@
   }
 
   &__friends {
-
+    display: flex;
   }
 
   &__photo {
@@ -426,6 +449,11 @@
   overflow: hidden;
   padding: 3rem;
   position: relative;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
 
   &__text {
     margin-bottom: 2rem;
@@ -484,10 +512,13 @@
 :::: ￼ CTA
 ======================================== */
 .cta {
+  background-color: #fff;
   padding: 3.5rem 0;
   text-align: center;
 
-  background-color: #fff;
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2.5rem 0;
+  }
 
   &__book-now {
     font-size: 1.85rem;
