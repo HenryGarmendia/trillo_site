@@ -61,6 +61,11 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   justify-content: space-between; }
+  @media only screen and (max-width: 31.25em) {
+    .header {
+      align-content: space-around;
+      flex-wrap: wrap;
+      height: 11rem; } }
 
 .content {
   display: flex; }
@@ -127,6 +132,11 @@ body {
   display: flex;
   flex: 0 0 40%;
   justify-content: center; }
+  @media only screen and (max-width: 31.25em) {
+    .search {
+      background-color: var(--color-grey-light-2);
+      flex: 0 0 100%;
+      order: 1; } }
   .search__input {
     background-color: var(--color-grey-light-2);
     border: none;

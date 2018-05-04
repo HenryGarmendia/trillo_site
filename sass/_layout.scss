@@ -19,7 +19,13 @@
     display: flex;
     font-size: 1.4rem;
     height: 7rem;
-    justify-content: space-between; }
+    justify-content: space-between;
+
+    @media only screen and (max-width: $bp-smallest) {
+      align-content: space-around;
+      flex-wrap: wrap;
+      height: 11rem;
+    } }
 
   .content { 
     display: flex;
